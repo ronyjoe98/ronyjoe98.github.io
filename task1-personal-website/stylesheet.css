@@ -1,0 +1,97 @@
+/* General styles for body tag */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #f5f5f5;
+}
+
+/* ID selector for main title */
+#main-title {
+    color: #f5f5f5;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class used multiple times */
+.intro-text {
+    font-size: 1.1em;
+    color: #dddddd;
+    text-align: center;
+}
+
+/* Div section styling */
+.header-section {
+    background-color: #b30000;
+    color: #f5f5f5;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+.header-section #main-title {
+    color: #ffffff;
+}
+
+.header-section .intro-text {
+    color: #ffffff;
+}
+
+/* Another div section */
+.content-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #181818;
+    border: 1px solid #b30000;
+    /* Box model properties: padding and margin */
+}
+
+/* Styling for headings inside content */
+h2 {
+    color: #e41b17;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Link styling */
+a {
+    color: #ff3b30;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Image styling */
+.portfolio-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #b30000;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #151515;
+    margin: 10px 0;
+    padding: 12px;
+    border-left: 4px solid #b30000;
+}
+
+ul li:hover {
+    background-color: #1f1f1f;
+}
