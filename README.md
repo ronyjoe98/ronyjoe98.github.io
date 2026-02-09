@@ -1,62 +1,38 @@
-# React.js Homework - Spring 2026
+# Task 1: Personal Website
 
-This repository contains the completed assignments for the React.js homework.
+## Requirements Checklist
 
-## Project Structure
+✅ **CSS selector for HTML tag**: `body` tag styling  
+✅ **Class used on 2+ elements**: `.intro-text` class applied to multiple paragraphs  
+✅ **ID on element**: `#main-title` on the h1 element  
+✅ **Two div sections**: `.header-section` and `.content-section`  
+✅ **Link to another website**: Links to GitHub and LinkedIn  
+✅ **Hover effect on links**: Color change on `a:hover`  
+✅ **Two box model properties**: `padding` and `margin` on `.content-section` and `.portfolio-image`  
+✅ **Image included**: Placeholder image (replace with your own)  
+✅ **Meta description tag**: Included in `<head>` section  
+✅ **GitHub Pages deployment**: Follow instructions below
 
-```
-react-hw-sp26/
-- task1-personal-website/    # Task 1: HTML/CSS Personal Website
-- task3-react-app/            # Task 3: Custom React App (Projects Page)
+## Deployment Instructions
 
-```
+1. Create a new repository on GitHub named `yourgithubusername.github.io`
+2. Clone the repository to your computer
+3. Copy `index.html` and `stylesheet.css` into the cloned repository
+4. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Initial commit - personal website"
+   git push origin main
+   ```
+5. Your site will be available at `https://yourgithubusername.github.io`
 
-## Task 1: Personal Website
+## Customization
 
-A single-page personal website built with HTML and CSS, ready for deployment on GitHub Pages.
+- Replace the placeholder image URL with your own image
+- Update the content with your actual information
+- Modify colors in `stylesheet.css` to match your preferences
+- Add more sections as needed
 
-**Key Features:**
-- Responsive design with CSS
-- External stylesheet
-- Semantic HTML structure
-- Hover effects and styling
-- Meta tags for SEO
+## Note
 
-**Setup:**
-See `task1-personal-website/README.md` for deployment instructions.
-
-## Task 3: Custom React App
-
-A React application implementing a Projects page with hardware checkout management.
-
-**Key Features:**
-- Material-UI components (Button, Card, Chip, LinearProgress, etc.)
-- Multiple reusable custom components
-- State management with React hooks
-- Event handlers for user interactions
-- Props passing between components
-- Responsive grid layout
-
-**Setup:**
-```bash
-cd task3-react-app
-npm install
-npm start
-```
-
-See `task3-react-app/README.md` for detailed documentation.
-
-## Submission Guidelines
-
-### Task 1
-- Deploy to GitHub Pages at `https://yourgithubusername.github.io`
-- Submit the GitHub repository link on Canvas
-- Do not push changes after the deadline
-
-### Task 3
-- Create a zip file excluding `node_modules`:
-  ```bash
-  zip -r task3-react-app.zip task3-react-app -x "task3-react-app/node_modules/*"
-  ```
-- Submit the zip file on Canvas
-
+Make sure to replace the placeholder image with a safe-for-work image before deploying!
